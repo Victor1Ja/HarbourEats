@@ -105,6 +105,19 @@ HarbourEats is a food delivery company aiming to enhance courier engagement thro
      - User authentication and authorization should be robust and ensure only authorized access to quest and courier data.
      - Sensitive information, such as personal details and rewards, should be securely stored and encrypted.
 
+## Performance Metrics
+Ideally, the Quests feature should be designed to handle a large number of concurrent users and quests. The following performance metrics should be considered:
+- **Response Time:**
+  - The system should be optimized for low response times, ensuring that quest details are updated in real-time and that the system can handle a high volume of requests.
+
+- **Scalability:**
+- The feature should be designed to scale horizontally, allowing for the addition of more resources to handle increased load.
+
+## Assumptions
+Amount of users and couriers is assuming to reach in 1 year to the 0.1% of Barcelona which is 1.6M people, so 1.6K active users 1 courier for every 5 - 10 users, so 160 couriers and 3 quest per courier per day, so 480 quests per day.
+
+
+
 ## Data Model
 **TBD**
 

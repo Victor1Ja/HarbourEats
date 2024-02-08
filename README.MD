@@ -15,7 +15,9 @@ HarbourEats is a food delivery company aiming to enhance courier engagement thro
   - Quests should have flexible durations, allowing administrators to set specific timeframes for each quest.
 
 - **Quest Tiers:**
-  - Quests should consist of multiple tiers, with each tier having a defined goal (e.g., 10 orders, 20 orders) and corresponding rewards (e.g., 5 euros for 10 orders, 10 euros for 20 orders).
+  - Quests should consist of multiple tiers, with each tier having a defined goal (e.g., 10 orders, 20 orders) and corresponding rewards (e.g., 5 euros for 10 orders, 10 euros for 20 orders). 
+  - Couriers can only claim rewards after reaching the goal for each tier.
+  - Couriers can only be in one quest at a time.
 
 #### 2. Courier Interface
 
@@ -114,15 +116,7 @@ Ideally, the Quests feature should be designed to handle a large number of concu
 - The feature should be designed to scale horizontally, allowing for the addition of more resources to handle increased load.
 
 ## Assumptions
-Amount of users and couriers is assuming to reach in 1 year to the 0.1% of Barcelona which is 1.6M people, so 1.6K active users 1 courier for every 5 - 10 users, so 160 couriers and 3 quest per courier per day, so 480 quests per day.
-
-
-
-## Data Model
-**TBD**
-
-## API Endpoints
-**TBD**
+Amount of users and couriers is assuming to reach in 1 year to the 0.1% of Barcelona which is 1.6M people, so 1.6K active users 1 courier for every 5 - 10 users, so 160 couriers and 3 quest per courier per day.
 
 ## Conclusion
 
